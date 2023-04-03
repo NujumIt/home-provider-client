@@ -1,0 +1,92 @@
+.headerTop {
+    width: 100%;
+    height: 60px;
+    background-color: #0C3943;
+}
+
+.headerTop>div {
+    width: 80%;
+    margin: 0 10%;
+    height: 100%;
+    display: flex;
+}
+
+
+.leftSide {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rightSide {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.iconGroup {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconGroup:last-of-type{
+    margin-left: 100px;
+}
+
+
+
+.icon {
+    font-size: 1.5em;
+    color: white;
+}
+
+.iconText {
+    font-size: 1.5em;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.phone{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0B2C36;
+}
+
+.phoneText {
+    font-size: 1.5em;
+    color: white;
+}
+
+.socialIcons{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialIcon{
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+.socialIcon:hover{
+    color: orange;
+    transition: all 0.5s linear;
+}
+
+
+.login{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+}
