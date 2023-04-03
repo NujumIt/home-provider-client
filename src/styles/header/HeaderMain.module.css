@@ -1,0 +1,28 @@
+.headerMain{
+    width: 80%;
+    margin: 50px 10% 0;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.textContainer{
+    width: 60%;
+    color: white;
+    overflow: hidden;
+}
+
+.textContainer h1{
+    text-align: right;
+    font-size: 8.3em;
+}
+
+.textContainer p{
+    font-size: 3.75em;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.filterContainer{
+    width: 40%;
+}

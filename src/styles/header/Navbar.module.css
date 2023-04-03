@@ -1,0 +1,40 @@
+.navbar {
+    width: 80%;
+    margin: 0 10%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.navbar ul:first-of-type {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.navbar ul:first-of-type li a {
+    font-size: 3em;
+    color: white;
+
+
+}
+
+.navbar ul:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    height: 100%;
+}
+
+.navbar ul:last-of-type li {
+    font-size: 1.5em;
+    cursor: pointer;
+    
+}

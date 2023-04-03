@@ -1,0 +1,23 @@
+.headerFilter{
+    width: 80%;
+    margin-right: 20%;
+    height: auto;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.headerFilter button{
+    width: 80%;
+    margin: 20px 10% 0;
+    color: black;
+    font-size: 2em;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #F3BC65;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+

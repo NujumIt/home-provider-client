@@ -5,6 +5,8 @@
   box-sizing: border-box;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
 
 }
 
@@ -14,7 +16,19 @@ header {
   background-image: url("https://res.cloudinary.com/dr2vztyib/image/upload/v1680510924/home-provider/banner-1_fc2rkn.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 
+}
+
+.scrollIconWrapper{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
