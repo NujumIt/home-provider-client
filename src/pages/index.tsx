@@ -7,6 +7,7 @@ import MissionContainer from '@/components/mission/MissionContainer';
 import AgentsContainer from '@/components/agents/AgentsContainer';
 import NewsAndBlog from '@/components/newAndBlog/NewsAndBlog';
 import Chart from '@/components/chart/Chart';
+import LookingTo from '@/components/lookingTo/LookingTo';
 
 const index = () => {
   return (
@@ -22,6 +23,7 @@ const index = () => {
         <AgentsContainer></AgentsContainer>
         <NewsAndBlog></NewsAndBlog>
         <Chart></Chart>
+        <LookingTo></LookingTo>
       </main>
     </>
   );

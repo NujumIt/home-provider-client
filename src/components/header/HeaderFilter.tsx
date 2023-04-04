@@ -32,7 +32,7 @@ const HeaderFilter = () => {
      }
 
      <button>
-Submit
+     أرسل الآن
      </button>
     </div>
   );

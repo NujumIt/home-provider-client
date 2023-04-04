@@ -2,7 +2,8 @@
     width: 100%;
     height: 300px;
     background-image: url("https://res.cloudinary.com/dr2vztyib/image/upload/v1680510923/home-provider/bg-achievement_flvkzz.jpg");
-
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
