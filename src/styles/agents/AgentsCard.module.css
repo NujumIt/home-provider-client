@@ -1,0 +1,39 @@
+.agentsCard {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    padding-bottom: 25px;
+}
+
+.agentsCard img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 15px;
+}
+
+.agentsCard>h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.agentsCard>h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #00BBAA;
+    margin-bottom: 15px;
+}
+
+.agentsCard>a {
+    font-size: 1.2em;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    display: block;
+    color: #2C3E50;
+    text-transform: uppercase;
+}
+
+.agentsCard a:hover{
+    text-decoration: underline;
+}

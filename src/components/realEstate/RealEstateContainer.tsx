@@ -14,7 +14,7 @@ const RealEstateContainer = () => {
 
   return (
     <div className={styles.container}>
-      <h1>Real Estate</h1>
+      <h1>العقارات</h1>
       <p>
         بفضل أكثر من 700،000 عرض نشط، تتمتع بأكبر مخزون من الشقق في الولايات
         المتحدة

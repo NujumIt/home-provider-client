@@ -4,6 +4,9 @@ import HeaderTop from '@/components/header/HeaderTop';
 import Navbar from '@/components/header/Navbar';
 import React from 'react';
 import MissionContainer from '@/components/mission/MissionContainer';
+import AgentsContainer from '@/components/agents/AgentsContainer';
+import NewsAndBlog from '@/components/newAndBlog/NewsAndBlog';
+import Chart from '@/components/chart/Chart';
 
 const index = () => {
   return (
@@ -16,6 +19,9 @@ const index = () => {
       <main>
         <RealEstateContainer></RealEstateContainer>
         <MissionContainer></MissionContainer>
+        <AgentsContainer></AgentsContainer>
+        <NewsAndBlog></NewsAndBlog>
+        <Chart></Chart>
       </main>
     </>
   );

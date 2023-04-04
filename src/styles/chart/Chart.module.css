@@ -1,0 +1,40 @@
+.chart {
+    width: 100%;
+    height: 300px;
+    background-image: url("https://res.cloudinary.com/dr2vztyib/image/upload/v1680510923/home-provider/bg-achievement_flvkzz.jpg");
+
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 25px;
+    grid-column-gap: 50px;
+
+}
+
+.chart>div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    font-size: 4em;
+    color: #DADEDF;
+}
+
+.chart>div>h2 {
+    font-size: 4em;
+    margin-top: 50px;
+    color: #F3BC65;
+    font-weight: 300;
+}
+
+.chart>div>h4 {
+    font-size: 2em;
+    color: #F3BC65;
+    font-weight: 300;
+}
+
