@@ -1,0 +1,24 @@
+.missionCard{
+    width: 100%;
+    height: 250px;
+    
+}
+
+
+.icon{
+    font-size: 4em;
+    color: #2C3E50;
+    font-weight: 300;
+    padding: 3px;
+}
+
+
+.missionCard > h1{
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.missionCard > p{
+    font-size: 1.5em
+    
+}

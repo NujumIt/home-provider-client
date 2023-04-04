@@ -10,6 +10,10 @@
 
 }
 
+body{
+  background-color: #F6F6F6;
+}
+
 header {
   height: 100vh;
   width: 100%;
