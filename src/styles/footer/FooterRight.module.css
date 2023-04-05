@@ -1,5 +1,6 @@
 .main {
     height: 300px;
+    position: relative;
 }
 
 .main h2 {
@@ -21,4 +22,21 @@
     font-size: 1.3em;
     margin-top: 5px;
     text-align: right;
+}
+
+.main button{
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: 1px solid #DADEDF;
+    font-size: 1.5em;
+    color: #DADEDF;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.main button:hover{
+    color: #00BBAA;
+    border: 2px solid #00BBAA;
 }
