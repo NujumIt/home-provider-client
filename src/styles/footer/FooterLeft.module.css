@@ -1,0 +1,44 @@
+.main{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.main h2{
+    font-size: 2.5em;
+    color: #DADEDF;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.main p{
+    font-size: 1.5em;
+    text-align: right;
+    color: #DADEDF;
+
+}
+
+
+
+.socialIcons{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.socialIcon{
+    font-size: 1.5em;
+    color: #00BBAA;
+    cursor: pointer;
+}
+.socialIcon:hover{
+    color: orange;
+    transition: all 0.5s linear;
+}
+

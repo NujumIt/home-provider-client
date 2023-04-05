@@ -2,6 +2,16 @@ import React from "react";
 import styles from "../../styles/lookingTo/LookingTo.module.css";
 
 const LookingTo = () => {
+  const [hydrated, setHydrated] = React.useState(false);
+
+  React.useEffect(() => {
+    setHydrated(true);
+  }, []);
+  if (!hydrated) {
+    // Returns null on first render, so the client and server match
+    return null;
+  }
+
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
