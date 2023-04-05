@@ -1,4 +1,24 @@
-.main{
+.main {
     height: 300px;
-    background-color: green;
+}
+
+.main h2 {
+    font-size: 2.5em;
+    color: #00BBAA;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.main h3 {
+    color: #DADEDF;
+    font-size: 1.5em;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.main h4 {
+    color: #DADEDF;
+    font-size: 1.3em;
+    margin-top: 5px;
+    text-align: right;
 }
