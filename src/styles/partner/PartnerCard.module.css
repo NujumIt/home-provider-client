@@ -1,0 +1,26 @@
+
+
+.partnerCard{
+    width: 100%;
+    height: 125px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.partnerCard > h3{
+    font-size: 1.75em;
+    text-align: center;
+     color: #2C3E50;
+     font-weight: 300;
+}
+
+.partnerCard > img{
+    width: auto;
+    height: auto;
+    
+}

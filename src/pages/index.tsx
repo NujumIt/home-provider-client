@@ -9,6 +9,8 @@ import NewsAndBlog from "@/components/newAndBlog/NewsAndBlog";
 import Chart from "@/components/chart/Chart";
 import LookingTo from "@/components/lookingTo/LookingTo";
 import Footer from "@/components/footer/Footer";
+import Testimonial from "@/components/testimonials/Testimonial";
+import Partner from "@/components/partner/Partner";
 
 const index = () => {
   return (
@@ -24,7 +26,9 @@ const index = () => {
         <AgentsContainer></AgentsContainer>
         <NewsAndBlog></NewsAndBlog>
         <Chart></Chart>
+        <Testimonial></Testimonial>
         <LookingTo></LookingTo>
+        <Partner></Partner>
         <footer>
           <Footer></Footer>
         </footer>{" "}

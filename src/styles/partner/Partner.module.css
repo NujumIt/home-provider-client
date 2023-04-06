@@ -1,0 +1,48 @@
+.partner {
+    width: 90%;
+    margin: 0 5%;
+    padding-top: 25px;
+}
+.partner h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2C3E50;
+    font-size: 4em;
+}
+
+.partner > p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    color: #2C3E50;
+    margin-top: 15px;
+}
+
+.partner>div {
+    width: 100%;
+    height: 200px;
+    position: relative;
+
+}
+
+.prev, .next{
+    font-size: 3em;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1000;
+
+}
+
+.prev{
+    left: -2%;
+    
+}
+
+.next{
+    right: -2%;
+}
+
