@@ -95,6 +95,19 @@
     .navSmall {
         display: block;
     }
+    .openMenu {
+        width: 50%;
+        left: 0;
+    
+    }
+    
+    .closeMenu {
+        width: 50%;
+        left: -50%;
+    
+    
+    
+    }
 }
 
 

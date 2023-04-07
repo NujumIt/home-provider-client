@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 
-.iconGroup:last-of-type{
+.iconGroup:last-of-type {
     margin-left: 100px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 
-.phone{
+.phone {
     width: 40%;
     height: 100%;
     display: flex;
@@ -64,7 +64,7 @@
     color: white;
 }
 
-.socialIcons{
+.socialIcons {
     width: 30%;
     height: 100%;
     display: flex;
@@ -72,18 +72,19 @@
     align-items: center;
 }
 
-.socialIcon{
+.socialIcon {
     font-size: 1.5em;
     color: white;
     cursor: pointer;
 }
-.socialIcon:hover{
+
+.socialIcon:hover {
     color: orange;
     transition: all 0.5s linear;
 }
 
 
-.login{
+.login {
     width: 30%;
     display: flex;
     align-items: center;
@@ -92,23 +93,64 @@
 }
 
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {}
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    
+    .headerTop>div {
+        width: 86%;
+        margin: 0 7%;
+
+    }
+    .leftSide {
+        width: 40%;
+    }
+    
+    .rightSide {
+        width: 60%;
+    }
+
+    .icon, .socialIcon, .phoneText, .iconText {
+        font-size: 1.4em;
+    }
+    .iconGroup:last-of-type {
+        margin-left: 85px;
+    }
+}
 
 @media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+
+    .headerTop>div {
+        width: 90%;
+        margin: 0 5%;
+
+    }
+    .leftSide {
+        width: 35%;
+    }
+    
+    .rightSide {
+        width: 75%;
+    }
+
+    .icon, .socialIcon, .phoneText, .iconText {
+        font-size: 1.3em;
+    }
+    .iconGroup:last-of-type {
+        margin-left: 80px;
+    }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 739px) {
-    .headerTop{
+    .headerTop {
         display: none;
     }
 }
 
 
 @media only screen and (max-width: 599px) {
-.headerTop{
-    display: none;
-}
+    .headerTop {
+        display: none;
+    }
 
 
 }
