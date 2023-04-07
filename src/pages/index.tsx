@@ -11,16 +11,22 @@ import LookingTo from "@/components/lookingTo/LookingTo";
 import Footer from "@/components/footer/Footer";
 import Testimonial from "@/components/testimonials/Testimonial";
 import Partner from "@/components/partner/Partner";
+import NavSmall from "@/components/header/NavSmall";
 
 const index = () => {
   return (
     <>
       <header>
         <HeaderTop></HeaderTop>
+        {/* this navbar is for larger devices ↓↓ */}
         <Navbar></Navbar>
-        <HeaderMain></HeaderMain>
+        {/* ------------- */}
+        {/* this navbar is for smaller devices ↓↓ */}
+        <NavSmall></NavSmall>
+
+        {/* <HeaderMain></HeaderMain> */}
       </header>
-      <main>
+      {/* <main>
         <RealEstateContainer></RealEstateContainer>
         <MissionContainer></MissionContainer>
         <AgentsContainer></AgentsContainer>
@@ -32,7 +38,7 @@ const index = () => {
         <footer>
           <Footer></Footer>
         </footer>{" "}
-      </main>
+      </main> */}
     </>
   );
 };

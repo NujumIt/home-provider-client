@@ -1,0 +1,58 @@
+.navSmall {
+    display: none;
+    width: 100%;
+    height: 60px;
+    background-color: #0C3943;
+    
+}
+
+.navSmall > div{
+    width: 96%;
+    margin: 0 2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navSmall > div > span:first-of-type{
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+}
+
+.icon{
+    font-size: 2em;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .navSmall {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .navSmall {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .navSmall {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 599px) {
+
+
+    .navSmall {
+        display: block;
+    }
+}

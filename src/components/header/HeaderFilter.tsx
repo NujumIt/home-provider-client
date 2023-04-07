@@ -6,20 +6,21 @@ import RangeInput from "./RangeInput";
 const HeaderFilter = () => {
   const filterBoxes = [
     {
-      title: "Property Location",
+      title: "موقع العقار",
     },
     {
-      title: "Property Type",
+      title: "نوع العقار",
     },
     {
-      title: "Property Feature",
+      title: "ميزة العقار",
     },
   ];
 
-  const rangeData = [{ title: "Built-up area(sq fr)", min: "1", max: "50" },
-  { title: "Price", min: "100", max: "500" },
-  { title: "Bathrooms", min: "1", max: "5" }
-];
+  const rangeData = [
+    { title: "المساحة المبنية (قدم مربع)", min: "1", max: "50" },
+    { title: "السعر", min: "100", max: "500" },
+    { title: "الحمامات", min: "1", max: "5" },
+  ];
 
   return (
     <div className={styles.headerFilter}>
@@ -27,13 +28,11 @@ const HeaderFilter = () => {
         <Dropdown key={f.title} title={f.title}></Dropdown>
       ))}
 
-     {
-      rangeData.map((r:any)=>( <RangeInput key={r.title} data={r}></RangeInput>))
-     }
+      {rangeData.map((r: any) => (
+        <RangeInput key={r.title} data={r}></RangeInput>
+      ))}
 
-     <button>
-     أرسل الآن
-     </button>
+      <button>أرسل الآن</button>
     </div>
   );
 };
