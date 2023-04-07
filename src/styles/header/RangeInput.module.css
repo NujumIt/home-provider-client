@@ -16,9 +16,9 @@
 }
 
 
-.rangeInput > div{
+.rangeInput>div {
     width: 100%;
-    margin:0 0 5px;
+    margin: 0 0 5px;
     display: flex;
     justify-content: space-between;
 
@@ -38,9 +38,9 @@
     height: 25px;
     background-color: white;
     position: relative;
-  }
-  
-  .valueBox::before {
+}
+
+.valueBox::before {
     content: "";
     position: absolute;
     bottom: -5px;
@@ -51,7 +51,8 @@
     border-style: solid;
     border-width: 5px 5px 0 5px;
     border-color: white transparent transparent transparent;
-  }
+}
+
 /* 
 .rangeInput input[type=range]::-webkit-slider-runnable-track {
     background: white;
@@ -61,14 +62,55 @@
 @media only screen and (min-width: 960px) and (max-width: 1280px) {}
 
 @media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+    .rangeInput {
+        width: 80%;
+        margin: 0 10%;
+        height: 75px;
+    }
+
+    .rangeInput label {
+        font-size: 1.15em;
+    }
+
+    .valueBox {
+        width: 20px;
+        height: 15px;
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .rangeInput {
+        width: 90%;
+        margin: 0 5%;
+        height: 80px;
+    }
+
+    .rangeInput label {
+        font-size: 1.15em;
+    }
+
+    .valueBox {
+        width: 20px;
+        height: 15px;
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
+    .rangeInput {
+        width: 90%;
+        margin: 0 5%;
+        height: 80px;
+    }
 
+    .rangeInput label {
+        font-size: 1.15em;
+        margin: 3px 0;
+    }
 
+    .valueBox {
+        width: 20px;
+        height: 15px;
+    }
 
 }

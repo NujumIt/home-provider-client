@@ -1,4 +1,4 @@
-.headerFilter{
+.headerFilter {
     width: 80%;
     margin-right: 20%;
     height: auto;
@@ -6,11 +6,11 @@
     background-color: rgb(255, 255, 255, 0.2);
 }
 
-.headerFilter button{
+.headerFilter button {
     width: 80%;
     margin: 20px 10% 0;
     color: #2C3E50;
-    
+
     font-size: 2em;
     height: 50px;
     outline: none;
@@ -22,17 +22,37 @@
 }
 
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {}
-
-@media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .headerFilter {
+        width: 90%;
+        margin-right: 10%;
+        padding: 25px 0;
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .headerFilter {
+        width: 100%;
+        margin: 0;
+        padding: 25px 0;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .headerFilter {
+        width: 100%;
+        margin: 0;
+        padding: 25px 0;
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
 
-
+    .headerFilter {
+        width: 100%;
+        margin: 0;
+        padding: 15px 0;
+    }
 
 }

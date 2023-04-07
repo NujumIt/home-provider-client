@@ -24,7 +24,7 @@ const index = () => {
         {/* this navbar is for smaller devices ↓↓ */}
         <NavSmall></NavSmall>
 
-        {/* <HeaderMain></HeaderMain> */}
+        <HeaderMain></HeaderMain>
       </header>
       {/* <main>
         <RealEstateContainer></RealEstateContainer>

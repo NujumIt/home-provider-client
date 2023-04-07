@@ -4,13 +4,14 @@
     height: 100px;
 }
 
-.dropdownLong{
+.dropdownLong {
     width: 80%;
     margin: 0 10%;
     height: auto;
 }
 
-.dropdown label, .dropdownLong label {
+.dropdown label,
+.dropdownLong label {
     font-size: 1.25em;
     text-transform: uppercase;
     color: white;
@@ -21,15 +22,16 @@
 
 }
 
-.dropdown ul, .dropdownLong ul {
+.dropdown ul,
+.dropdownLong ul {
     width: 100%;
     overflow: hidden;
     cursor: pointer;
-   
+
 
 }
 
-.menuClosed{
+.menuClosed {
     height: 45px;
     background-color: #DADEDF;
 
@@ -45,7 +47,8 @@
 
 
 
-.dropdown li, .dropdownLong li {
+.dropdown li,
+.dropdownLong li {
     font-size: 1.5em;
     color: #2C3E50;
     height: 45px;
@@ -56,15 +59,16 @@
     align-items: center;
     background-color: #DADEDF;
     border-bottom: 1px solid white;
-  
+
 }
 
-.dropdown li:first-of-type, .dropdownLong li:first-of-type {
+.dropdown li:first-of-type,
+.dropdownLong li:first-of-type {
     justify-content: space-between;
     border: none;
 }
 
-.icon{
+.icon {
     font-size: 1.2em;
     color: #2C3E50;
 }
@@ -74,14 +78,53 @@
 @media only screen and (min-width: 960px) and (max-width: 1280px) {}
 
 @media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+    .dropdown {
+        height: 75px;
+    }
+
+    .dropdown label,
+    .dropdownLong label {
+        font-size: 1.25em;
+    }
+
+    .icon {
+        font-size: 1em;
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .dropdown {
+        height: 80px;
+        margin: 0 5%;
+        width: 90%;
+    }
+
+    .dropdown label,
+    .dropdownLong label {
+        font-size: 1.15em;
+    }
+
+    .icon {
+        font-size: 1em;
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
+    .dropdown {
+        height: 80px;
+        margin: 0 5%;
+        width: 90%;
+    }
 
+    .dropdown label,
+    .dropdownLong label {
+        font-size: 1.15em;
+        margin: 3px 0;
+    }
 
+    .icon {
+        font-size: 1em;
+    }
 
 }
