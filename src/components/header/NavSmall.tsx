@@ -11,6 +11,8 @@ const NavSmall = () => {
   const iconBars: IconProp = faBars;
 
   const [openMenu, setOpenMenu] = useState(false);
+
+  console.log(openMenu)
   return (
     <div className={styles.navSmall}>
       <div>
@@ -24,21 +26,22 @@ const NavSmall = () => {
         <span>
           <FontAwesomeIcon icon={iconLogin} className={styles.icon} />
         </span>
-        <span>
+        <span onClick={()=>setOpenMenu(!openMenu)}>
           <FontAwesomeIcon icon={iconBars} className={styles.icon} />
         </span>{" "}
       </div>
 
       {/* hidden menubar */}
-      <ul>
-        <li>الرئيسية</li>
-        <li>الخصائص</li>
-        <li>الوكلاء</li>
-        <li>المستخدم</li>
-        <li>الصفحات</li>
-        <li>المعرض</li>
-        <li>المدوّنة</li>
-        <li>اتصل بنا</li>
+      <ul className={openMenu ? styles.openMenu : styles.closeMenu}>
+
+        <li><span>الرئيسية</span></li>
+        <li><span>الخصائص</span></li>
+        <li><span>الوكلاء</span></li>
+        <li><span>المستخدم</span></li>
+        <li><span>الصفحات</span></li>
+        <li><span>الصفحات</span></li>
+        <li><span>المدوّنة</span></li>
+        <li><span>اتصل بنا </span> </li>
       </ul>
     </div>
   );
