@@ -12,7 +12,6 @@ const NavSmall = () => {
 
   const [openMenu, setOpenMenu] = useState(false);
 
-  console.log(openMenu)
   return (
     <div className={styles.navSmall}>
       <div>
