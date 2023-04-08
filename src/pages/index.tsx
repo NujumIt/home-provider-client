@@ -33,7 +33,7 @@ const index = () => {
         <NewsAndBlog></NewsAndBlog>
         <Chart></Chart>
         <Testimonial></Testimonial>
-        {/* <LookingTo></LookingTo> */}
+        <LookingTo></LookingTo>
         {/* <Partner></Partner> */}
         {/* <footer>
           <Footer></Footer>

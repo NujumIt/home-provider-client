@@ -40,9 +40,15 @@
         width: 90%;
         margin: 0 5%;
     }
+    .testimonial {
+        height: 6750x;
+    }
 }
 
 @media only screen and (min-width: 740px) and (max-width: 959px) {
+    .testimonial {
+        height: auto;
+    }
     .testimonial>div>div {
         width: 90%;
         margin: 0 5%;
@@ -58,6 +64,9 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 739px) {
+    .testimonial {
+        height: auto;
+    }
     .testimonial>div>div {
         width: 90%;
         margin: 0 5%;
@@ -74,7 +83,10 @@
 
 
 @media only screen and (max-width: 599px) {
-
+    .testimonial {
+        height: auto;
+        padding-bottom: 0;
+    }
 
     .testimonial>div>div {
         width: 96%;
