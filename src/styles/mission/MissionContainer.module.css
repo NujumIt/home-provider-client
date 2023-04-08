@@ -1,39 +1,39 @@
-.missionContainer{
-    display:flex;
-    width:100%;
-    height:750px;
+.missionContainer {
+    display: flex;
+    width: 100%;
+    height: 750px;
     align-items: center;
     background-color: white;
 }
 
 
-.missionContainer > img{
+.missionContainer>img {
     width: 47%;
     height: 100%;
 }
 
 
-.textContainer{
+.textContainer {
     margin: 25px 5% 0 3%;
     width: 45%;
     height: 100%;
 }
 
-.textContainer > h1{
-    font-size: 3.2em;
+.textContainer>h1 {
+    font-size: 3em;
     margin: 15px 0;
     color: #00BBAA;
     text-align: right;
 }
 
-.textContainer > p{
-    font-size: 1.7em;
+.textContainer>p {
+    font-size: 1.5em;
     color: #2C3E50;
     text-align: right;
 }
 
 
-.textContainer > div{
+.textContainer>div {
     display: grid;
     direction: rtl;
     grid-template-columns: repeat(2, 1fr);
@@ -46,17 +46,135 @@
 }
 
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {}
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .missionContainer{
+        height: 675px;
+    }
+    .missionContainer>img {
+        width: 40%;
+        height: 100%;
+    }
 
-@media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+    
+    
+    .textContainer {
+        margin: 25px 0 0 2%;
+        width: 52%;
+        height: 100%;
+    }
+
+    .textContainer>h1 {
+        font-size: 2.75em;
+    
+    }
+    
+    .textContainer>p {
+        font-size: 1.5em;
+        color: #2C3E50;
+        text-align: right;
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+
+    .missionContainer {
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .missionContainer>img {
+        display: none;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .textContainer>h1 {
+        text-align: center;
+    }
+
+    .textContainer>p {
+
+        text-align: center;
+    }
+
+    .textContainer>div {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-row-gap: 15px;
+
+
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+
+    .missionContainer {
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .missionContainer>img {
+        display: none;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .textContainer>h1 {
+        text-align: center;
+    }
+
+    .textContainer>p {
+
+        text-align: center;
+    }
+
+    .textContainer>div {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-row-gap: 15px;
+
+
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
+    .missionContainer {
+        height: auto;
+        padding-bottom: 25px;
+    }
 
+    .missionContainer>img {
+        display: none;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .textContainer>h1 {
+        text-align: center;
+    }
+
+    .textContainer>p {
+
+        text-align: center;
+    }
+
+    .textContainer>div {
+
+        grid-template-columns: repeat(1, 1fr);
+
+        grid-row-gap: 15px;
+
+
+    }
 
 
 }

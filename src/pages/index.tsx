@@ -28,14 +28,14 @@ const index = () => {
       </header>
       <main>
         <RealEstateContainer></RealEstateContainer>
-        {/* <MissionContainer></MissionContainer>
-        <AgentsContainer></AgentsContainer>
-        <NewsAndBlog></NewsAndBlog>
-        <Chart></Chart>
-        <Testimonial></Testimonial>
-        <LookingTo></LookingTo>
-        <Partner></Partner>
-        <footer>
+        <MissionContainer></MissionContainer>
+        {/* <AgentsContainer></AgentsContainer> */}
+        {/* <NewsAndBlog></NewsAndBlog> */}
+        {/* <Chart></Chart> */}
+        {/* <Testimonial></Testimonial> */}
+        {/* <LookingTo></LookingTo> */}
+        {/* <Partner></Partner> */}
+        {/* <footer>
           <Footer></Footer>
         </footer>{" "} */}
       </main>
