@@ -35,9 +35,9 @@ const index = () => {
         <Testimonial></Testimonial>
         <LookingTo></LookingTo>
         {/* <Partner></Partner> */}
-        {/* <footer>
+        <footer>
           <Footer></Footer>
-        </footer>{" "} */}
+        </footer>{" "}
       </main>
     </>
   );
