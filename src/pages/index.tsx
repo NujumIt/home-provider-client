@@ -34,7 +34,7 @@ const index = () => {
         <Chart></Chart>
         <Testimonial></Testimonial>
         <LookingTo></LookingTo>
-        {/* <Partner></Partner> */}
+        <Partner></Partner>
         <footer>
           <Footer></Footer>
         </footer>{" "}
