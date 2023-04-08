@@ -34,22 +34,47 @@
     text-transform: uppercase;
 }
 
-.agentsCard a:hover{
+.agentsCard a:hover {
     text-decoration: underline;
 }
 
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {}
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .agentsCard {
+        height: 375px;
 
-@media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+    }
+
+    .agentsCard img {
+        height: 70%;
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .agentsCard {
+        height: 325px;
+
+    }
+
+    .agentsCard img {
+        height: 55%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+   
+}
 
 
 @media only screen and (max-width: 599px) {
 
+    .agentsCard {
+        height: 450px;
 
+    }
+
+    .agentsCard img {
+        height: 75%;
+    }
 
 }
