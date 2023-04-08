@@ -1,42 +1,43 @@
-.main{
+.main {
     height: 300px;
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100%;
-   
+
 }
 
-.main h2{
+.main h2 {
     font-size: 2.5em;
     color: #00BBAA;
     text-align: right;
     margin-top: 15px;
 }
 
-.contact{
+.contact {
     width: 100%;
     display: flex;
 }
 
-.contact p{
+.contact p {
     width: 50%;
     color: #DADEDF;
 }
 
-.phyInfo{
+.phyInfo {
     font-size: 1.5em;
+    direction: rtl;
 
 }
 
 
-.virInfo{
+.virInfo {
     font-size: 1.25em;
 }
 
 
 
-.feedback{
+.feedback {
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -46,7 +47,7 @@
 
 }
 
-.feedback input{
+.feedback input {
     width: 60%;
     height: 40px;
     border: 2px solid #DADEDF;
@@ -55,13 +56,13 @@
     background: none;
 }
 
-.feedback textarea{
+.feedback textarea {
     width: 60%;
     height: 100px;
     border: 2px solid #DADEDF;
     margin: 10px 0;
     outline: none;
-    background: none;   
+    background: none;
 }
 
 .feedback input[type="email"]::placeholder {
@@ -69,23 +70,24 @@
     color: #DADEDF;
     font-size: 1.5em;
     padding: 10px;
-  }
+}
 
 
-  .feedback textarea::placeholder {
+.feedback textarea::placeholder {
     text-align: right;
     color: #DADEDF;
     font-size: 1.5em;
     padding: 10px;
-  }
+}
 
 
- .feedback input:focus, .feedback textarea:focus {
+.feedback input:focus,
+.feedback textarea:focus {
     box-shadow: 0 0 5px #00BBAA;
-  }
+}
 
 
-  .feedback button{
+.feedback button {
     color: #2C3E50;
     width: 100px;
     height: 40px;
@@ -94,19 +96,60 @@
     background-color: #F3BC65;
     font-weight: 700;
     border-radius: 5px;
-  }
-
-
-  @media only screen and (min-width: 960px) and (max-width: 1280px) {}
-
-@media only screen and (min-width: 740px) and (max-width: 959px) {
- 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    
+    .feedback input,
+    .feedback textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .phyInfo {
+        direction: rtl;
+    }
+    .main {
+        height: auto;
+        padding: 0 15px;
+    }
+
+    .main h2 {
+        font-size: 2em;
+
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .main {
+        height: auto;
+        padding: 0 15px;
+    }
+
+    .main h2 {
+        font-size: 2em;
+
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
+    .main {
+        height: auto;
+        padding: 0 15px;
+    }
+
+    .main h2 {
+        font-size: 2em;
+    }
+
+    
+    .feedback input,
+    .feedback textarea {
+        width: 80%;
+    }
 
 
 
