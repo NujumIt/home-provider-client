@@ -26,9 +26,9 @@ const index = () => {
 
         <HeaderMain></HeaderMain>
       </header>
-      {/* <main>
+      <main>
         <RealEstateContainer></RealEstateContainer>
-        <MissionContainer></MissionContainer>
+        {/* <MissionContainer></MissionContainer>
         <AgentsContainer></AgentsContainer>
         <NewsAndBlog></NewsAndBlog>
         <Chart></Chart>
@@ -37,8 +37,8 @@ const index = () => {
         <Partner></Partner>
         <footer>
           <Footer></Footer>
-        </footer>{" "}
-      </main> */}
+        </footer>{" "} */}
+      </main>
     </>
   );
 };
