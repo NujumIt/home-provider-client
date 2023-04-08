@@ -1,4 +1,4 @@
-.slideCard{
+.slideCard {
     width: 100%;
     height: 100%;
     /* background-color: white; */
@@ -8,7 +8,7 @@
 }
 
 
-.slideCard > img{
+.slideCard>img {
     width: 150px;
     height: 175px;
     margin-top: 25px;
@@ -17,19 +17,19 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-.slideCard > h2{
+.slideCard>h2 {
     font-size: 3em;
     color: #2C3E50;
     margin-top: 25px;
-    
+
 }
 
-.slideCard > h3{
+.slideCard>h3 {
     font-size: 1.5em;
     color: #2C3E50;
 }
 
-.slideCard > p{
+.slideCard>p {
     text-align: center;
     color: #00BBAA;
     font-size: 1.5em;
@@ -52,17 +52,105 @@
 
 
 
-  @media only screen and (min-width: 960px) and (max-width: 1280px) {}
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .slideCard>p {
+        text-align: justify;
+        direction: rtl;
 
-@media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+    }
+
+    .slideCard>img {
+        width: 140px;
+        height: 160px;
+        margin-top: 15px;
+
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .slideCard>img {
+        width: 130px;
+        height: 155px;
+        margin-top: 15px;
+
+    }
+
+
+    .slideCard>h2 {
+        font-size: 2.5em;
+        margin-top: 15px;
+
+    }
+
+    .slideCard>h3 {
+        font-size: 1.5em;
+    }
+
+    .slideCard>p {
+        text-align: justify;
+        font-size: 1.5em;
+        direction: rtl;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .slideCard>img {
+        width: 120px;
+        height: 150px;
+        margin-top: 15px;
+
+    }
+
+
+    .slideCard>h2 {
+        font-size: 2em;
+        margin-top: 15px;
+
+    }
+
+    .slideCard>h3 {
+        font-size: 1.25em;
+    }
+
+    .slideCard>p {
+        text-align: justify;
+        font-size: 1.25em;
+        direction: rtl;
+
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
 
+
+    .slideCard>img {
+        width: 120px;
+        height: 150px;
+        margin-top: 15px;
+
+    }
+
+
+    .slideCard>h2 {
+        font-size: 2em;
+        margin-top: 15px;
+
+    }
+
+    .slideCard>h3 {
+        font-size: 1.25em;
+    }
+
+    .slideCard>p {
+        text-align: justify;
+        font-size: 1.25em;
+        direction: rtl;
+        width: 100%;
+
+    }
 
 
 }

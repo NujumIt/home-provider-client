@@ -30,9 +30,9 @@ const index = () => {
         <RealEstateContainer></RealEstateContainer>
         <MissionContainer></MissionContainer>
         <AgentsContainer></AgentsContainer>
-        {/* <NewsAndBlog></NewsAndBlog> */}
-        {/* <Chart></Chart> */}
-        {/* <Testimonial></Testimonial> */}
+        <NewsAndBlog></NewsAndBlog>
+        <Chart></Chart>
+        <Testimonial></Testimonial>
         {/* <LookingTo></LookingTo> */}
         {/* <Partner></Partner> */}
         {/* <footer>

@@ -11,7 +11,7 @@
     font-size: 4em;
 }
 
-.testimonial > p{
+.testimonial>p {
     text-transform: uppercase;
     text-align: center;
     font-size: 2em;
@@ -27,7 +27,7 @@
     justify-content: center;
 }
 
-.testimonial > div > div {
+.testimonial>div>div {
     width: 50%;
     height: 90%;
     /* background-color: white; */
@@ -35,17 +35,58 @@
 }
 
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {}
-
-@media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .testimonial>div>div {
+        width: 90%;
+        margin: 0 5%;
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .testimonial>div>div {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .testimonial h1 {
+        font-size: 2.5em;
+    }
+
+    .testimonial>p {
+        font-size: 1.75em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .testimonial>div>div {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .testimonial h1 {
+        font-size: 2em;
+    }
+
+    .testimonial>p {
+        font-size: 1.5em;
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
 
 
+    .testimonial>div>div {
+        width: 96%;
+        margin: 0 2%;
+    }
+
+    .testimonial h1 {
+        font-size: 2em;
+    }
+
+    .testimonial>p {
+        font-size: 1.5em;
+    }
 
 }

@@ -79,8 +79,8 @@
 
 @media only screen and (min-width: 960px) and (max-width: 1280px) {
     .headerMain {
-        width: 86%;
-        margin: 30px 7% 0;
+        width: 90%;
+        margin: 30px 5% 0;
         height: auto;
 
     }

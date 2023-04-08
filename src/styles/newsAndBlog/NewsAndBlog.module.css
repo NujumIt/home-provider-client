@@ -6,10 +6,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.container > h1 {
+.container>h1 {
     font-size: 4em;
     text-align: center;
     text-transform: uppercase;
@@ -18,47 +18,94 @@
 
 
 
-.container > div{
-        width: 100%;
-        display: grid;
-        grid-row-gap: 25px;
-        grid-column-gap: 50px;
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
-        align-items: center;
-        margin-top: 50px;
+.container>div {
+    width: 100%;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 
-.container > button{
+.container>button {
     margin-top: 50px;
     padding: 10px 25px;
     color: #2C3E50;
     font-size: 2em;
     background-color: white;
     border: 1px solid #2C3E50;
-    
+
 }
 
 
-.container button:hover{
+.container button:hover {
     border: 1px solid #F3BC65;
     color: #F3BC65;
 
 
 }
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {}
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .container {
+        width: 90%;
+        margin: 25px 5%;
+    }
 
-@media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+    .container > div{
+    grid-column-gap: 20px;
+
+    }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .container {
+        width: 90%;
+        margin: 20px 5%;
+    }
+
+    .container>div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container>h1 {
+        font-size: 3em;
+
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .container {
+        width: 90%;
+        margin: 20px 5%;
+    }
+
+    .container>h1 {
+        font-size: 3em;
+
+    }
+
+    .container>div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
 
+    .container {
+        width: 96%;
+        margin: 20px 2%;
+    }
 
+    .container>h1 {
+        font-size: 3em;
+
+    }
+
+    .container>div {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 }
