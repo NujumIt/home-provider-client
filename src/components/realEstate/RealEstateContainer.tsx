@@ -3,13 +3,13 @@ import styles from "../../styles/realEstate/RealEstateContainer.module.css";
 import RealEstateCard from "./RealEstateCard";
 const RealEstateContainer = () => {
 
-    const reData = [
-        { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510923/home-provider/15-830x540-c-center_sjagd2.jpg", title: "Property & sidebar agent", location:"Sublevel, Hialeah, Florida", price: "113859", status:"Urgent Sale"},
-        { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510923/home-provider/14-554x360-c-center_wtdlgn.jpg", title: "Property & agent at bottom", location:"Miami, Florida", price: null, status:"Sale"},
-        { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510922/home-provider/10-554x360-c-center_pgmywc.jpg", title: "Modern apartment on 5th floor with views of the Lake", location:"Saint PetersBug, Florida", price: "113859", status:"Sale"},
-        { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510922/home-provider/09-554x360-c-center_drltpn.jpg", title: "Sell beautiful Studio in one of the best areas", location:"New York", price: "875000", status:"Sale"},
-        { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510922/home-provider/08-554x360-c-center_ayusxe.jpg", title: "Apartment for sale with high quality finishing", location:"New York", price: "875000", status:"Sale"},
-        { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510922/home-provider/01-554x360-c-center_jbyqlc.jpg", title: "For sale beautiful apartment on Park Avenue", location:"New York", price: "1250", status:"rent"},
+  const reData = [
+    { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510923/home-provider/15-830x540-c-center_sjagd2.jpg", title: "وكيل العقارات والشريط الجانبي", location:"سوبليفيل، هياليا، فلوريدا", price: "113859", status:"بيع عاجل"},
+    { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510923/home-provider/14-554x360-c-center_wtdlgn.jpg", title: "العقار والوكيل في الأسفل", location:"ميامي، فلوريدا", price: null, status:"للبيع"},
+    { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510922/home-provider/10-554x360-c-center_pgmywc.jpg", title: "شقة حديثة في الطابق الخامس بإطلالة على البحيرة", location:"سانت بيترزبيرغ، فلوريدا", price: "113859", status:"للبيع"},
+    { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510922/home-provider/09-554x360-c-center_drltpn.jpg", title: "بيع ستوديو جميل في واحدة من أفضل المناطق", location:"نيويورك", price: "875000", status:"للبيع"},
+    { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510922/home-provider/08-554x360-c-center_ayusxe.jpg", title: "شقة للبيع بتشطيبات عالية الجودة", location:"نيويورك", price: "875000", status:"للبيع"},
+    { img: "https://res.cloudinary.com/dr2vztyib/image/upload/v1680510922/home-provider/01-554x360-c-center_jbyqlc.jpg", title: "للبيع شقة جميلة في بارك أفينيو", location:"نيويورك", price: "1250", status:"للإيجار"},
     ]
 
   return (
