@@ -1,11 +1,13 @@
 .navbar {
-    width: 80%;
-    margin: 0 10%;
+    width: 70%;
+    margin: 0 15%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
+    font-family: 'Noto Kufi Arabic', serif;
+
 }
 
 
@@ -19,7 +21,7 @@
 }
 
 .navbar ul:first-of-type li a {
-    font-size: 3em;
+    font-size: 3.5em;
     color: white;
 
 
@@ -34,37 +36,70 @@
 }
 
 .navbar ul:last-of-type li {
-    font-size: 1.5em;
+    font-size: 2em;
     cursor: pointer;
 
 }
 
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {
-    .navbar{
-        width: 90%;
-        margin: 0 5%;
-        height: 90px;
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+    .navbar {
+        width: 80%;
+        margin: 0 10% 0;
     }
-    .navbar ul:first-of-type li a {
-        font-size: 2.75em;
-    
-    
+
+    .navbar ul:last-of-type li {
+        font-size: 1.75em;
+
+
     }
 }
 
-@media only screen and (min-width: 740px) and (max-width: 959px) {
-    .navbar{
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+
+    .navbar {
+        width: 86%;
+        margin: 0 7%;
+    }
+
+    .navbar ul:last-of-type li {
+        font-size: 1.75em;
+    }
+
+    .navLogo {
+        width: 100px;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+    .navbar {
         width: 90%;
         margin: 0 5%;
         height: 90px;
     }
-    .navbar ul:first-of-type li a {
-        font-size: 2.5em;
-    
-    
+
+    .navbar ul:last-of-type li {
+        font-size: 1.5em;
     }
-    
+
+
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .navbar {
+        width: 90%;
+        margin: 0 5%;
+        height: 90px;
+    }
+    .navbar ul:last-of-type li {
+        font-size: 1.25em;
+    }
+
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 739px) {

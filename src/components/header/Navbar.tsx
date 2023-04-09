@@ -11,7 +11,15 @@ const Navbar = () => {
         {/* <Image width="24" height="22" src="https://res.cloudinary.com/dr2vztyib/image/upload/v1680510926/home-provider/mhk3tfn6x9mkmhz2iclyva2cjaja67f5_j1lscg.svg" alt='logo'></Image> */}
         {/* </li> */}
         <li>
-          <Link href="#">RealEstate</Link>
+          <Link href="#">
+            <Image
+              className={styles.navLogo}
+              src="https://res.cloudinary.com/dr2vztyib/image/upload/v1681060041/logo/logo-white_hd9dp6.png"
+              alt="logo"
+              width={140}
+              height={70}
+            ></Image>
+          </Link>
         </li>
       </ul>
 

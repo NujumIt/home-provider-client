@@ -9,7 +9,7 @@ const Dropdown = ({ title }: any) => {
   const iconCaret: IconProp = faCaretDown;
 
 
-  const [selected, setSelected] = useState("Any");
+  const [selected, setSelected] = useState("أي");
 
   const [open, setOpen] = useState("");
 

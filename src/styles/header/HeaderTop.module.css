@@ -5,8 +5,9 @@
 }
 
 .headerTop>div {
-    width: 80%;
-    margin: 0 10%;
+    width: 70%;
+
+    margin: 0 15%;
     height: 100%;
     display: flex;
 }
@@ -93,24 +94,51 @@
 }
 
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {
-    
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+    .headerTop>div {
+        width: 80%;
+        margin: 0 10%;
+
+
+    }
+}
+
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    .headerTop>div {
+        width: 86%;
+        margin: 0 7%;
+
+
+    }
+}
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+
     .headerTop>div {
         width: 90%;
         margin: 0 5%;
 
     }
+
     .leftSide {
         width: 40%;
     }
-    
+
     .rightSide {
         width: 60%;
     }
 
-    .icon, .socialIcon, .phoneText, .iconText {
+    .icon,
+    .socialIcon,
+    .phoneText,
+    .iconText {
         font-size: 1.4em;
     }
+
     .iconGroup:last-of-type {
         margin-left: 85px;
     }
@@ -123,17 +151,22 @@
         margin: 0 5%;
 
     }
+
     .leftSide {
         width: 35%;
     }
-    
+
     .rightSide {
         width: 75%;
     }
 
-    .icon, .socialIcon, .phoneText, .iconText {
-        font-size: 1.3em;
+    .icon,
+    .socialIcon,
+    .phoneText,
+    .iconText {
+        font-size: 1.15em;
     }
+
     .iconGroup:last-of-type {
         margin-left: 80px;
     }

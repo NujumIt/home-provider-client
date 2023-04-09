@@ -16,11 +16,6 @@
     justify-content: space-between;
 }
 
-.navSmall>div>span:first-of-type {
-    font-size: 2em;
-    font-weight: 700;
-    color: white;
-}
 
 .icon {
     font-size: 2em;

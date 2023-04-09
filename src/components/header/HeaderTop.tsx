@@ -43,7 +43,7 @@ const HeaderTop = () => {
         <div className={styles.rightSide}>
           <div className={styles.phone}>
             <FontAwesomeIcon icon={iconPhone} className={styles.icon} />
-            <span className={styles.phoneText}>+966 57 792 1670</span>
+            <span className={styles.phoneText}>+966 53 789 3676</span>
           </div>
 
           {/* socialIcons */}
