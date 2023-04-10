@@ -1,38 +1,40 @@
 .card {
     width: 100%;
-    height: 550px;
+    height: 500px;
+    padding-bottom: 100px;
     position: relative;
     background-color: white;
 
 }
 
-.card  > img {
+.card>img {
     width: 100%;
     height: 50%;
 }
 
-.card > h2 {
+.card>h2 {
     margin-top: 15px;
     text-align: right;
-    margin-right: 10px;
-    font-size: 2em;
-    color: #2C3E50;
-
-}
-
-.card > p {
+    margin-right: 5%;
     font-size: 1.5em;
-    text-align: right;
-    margin-right: 10px;
-    margin-top: 15px;
     color: #2C3E50;
 
 }
 
-.card > button{
+.card>p {
+    font-size: 1.15em;
+    text-align: justify;
+    color: #2C3E50;
+    direction: rtl;
+    width: 90%;
+    margin: 10px 5% 0;
+
+}
+
+.card>button {
     position: absolute;
     bottom: 15px;
-    right: 10px;
+    right: 5%;
     background-color: white;
     outline: none;
     padding: 5px 10px;
@@ -42,23 +44,89 @@
 }
 
 
-.card button:hover{
+.card button:hover {
     border: 1px solid #F3BC65;
     color: #F3BC65;
 
 }
 
-@media only screen and (min-width: 960px) and (max-width: 1280px) {}
+.corner {
+    width: auto;
+    height: auto;
+    padding: 5px 15px;
 
-@media only screen and (min-width: 740px) and (max-width: 959px) {
- 
+    background-color: #2C3E50;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+.corner span {
+    font-size: 2em;
+}
+
+.corner span:last-of-type {
+    margin-top: -7px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+
+    .corner span {
+        font-size: 1.75em;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+
+    .corner span {
+        font-size: 1.5em;
+    }
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .card {
+        padding-bottom: 120px;
+    }
+
+
+    .corner span {
+        font-size: 1.25em;
+    }
+
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+
+    .card {
+        height: 450px;
+    }
+
+
+    .corner span {
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+
+    .corner span {
+        font-size: 1.15em;
+    }
+}
 
 
 @media only screen and (max-width: 599px) {
 
-
-
+    .corner span {
+        font-size: 1.15em;
+    }
 }
