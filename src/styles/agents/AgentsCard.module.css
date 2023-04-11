@@ -3,12 +3,51 @@
     height: 450px;
     background-color: white;
     padding-bottom: 25px;
+
 }
 
-.agentsCard img {
+.imgWrapper {
     width: 100%;
     height: 55%;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+
+}
+
+.hoverEffect {
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    bottom: -35%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.agentsCard:hover .hoverEffect {
+    bottom: 0;
+}
+
+.socialIcon{
+    font-size: 2em;
+    color: #fafafa;
+}
+
+.agentsCard:hover .imgWrapper img{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.imgWrapper img {
+    width: 100%;
+    height: 100%;
 }
 
 .agentsCard>h2 {
@@ -52,7 +91,7 @@
 
     }
 
-    .agentsCard img {
+    .imgWrapper {
         width: 100%;
         height: 55%;
         margin-bottom: 7.5px;
@@ -70,7 +109,7 @@
 
     }
 
-    .agentsCard img {
+    .imgWrapper {
         height: 65%;
     }
 
@@ -85,7 +124,7 @@
 
     }
 
-    .agentsCard img {
+    .imgWrapper {
         height: 65%;
     }
 
@@ -100,7 +139,7 @@
 
     }
 
-    .agentsCard img {
+    .imgWrapper {
         height: 70%;
 
     }
@@ -120,7 +159,7 @@
 
     }
 
-    .agentsCard img {
+    .imgWrapper {
         height: 70%;
         margin-bottom: 5px;
     }
@@ -140,7 +179,7 @@
 
     }
 
-    .agentsCard img {
+    .imgWrapper {
         height: 72%;
         margin-bottom: 5px;
     }

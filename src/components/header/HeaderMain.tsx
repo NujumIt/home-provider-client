@@ -30,13 +30,16 @@ const HeaderMain = () => {
             بفضل أكثر من 700،000 عرض نشط، تتمتع بأكبر مخزون من الشقق في الولايات
             المتحدة
           </p>
-          <Image
+
+   
+
+          {/* <Image
             className={styles.getStarted}
             width={400}
             height={300}
             alt="logo"
             src="https://res.cloudinary.com/dr2vztyib/image/upload/v1681066626/home-provider/get-started_tsqruo.png"
-          ></Image>
+          ></Image> */}
         </div>
       )}
 
