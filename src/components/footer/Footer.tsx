@@ -12,16 +12,17 @@ const Footer = () => {
         {/* left part of footer ↓↓ */}
         <FooterLeft></FooterLeft>
 
-        
         {/* middle part of the footer ↓↓ */}
         <FooterMid></FooterMid>
-
 
         {/* right part of the footer ↓↓*/}
         <FooterRight></FooterRight>
       </div>
 
       <div className={styles.footerImg}></div>
+      <div className={styles.copyright}>
+        © 2023 نُجُوم. جميع الحقوق محفوظة
+      </div>
     </div>
   );
 };
