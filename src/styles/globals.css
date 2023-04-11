@@ -32,7 +32,8 @@ body {
 }
 
 header {
-  height: 100vh;
+  height: auto;
+  padding-bottom: 25px;
   width: 100%;
   background-image: url("https://res.cloudinary.com/dr2vztyib/image/upload/v1680510924/home-provider/banner-1_fc2rkn.jpg");
   background-repeat: no-repeat;
