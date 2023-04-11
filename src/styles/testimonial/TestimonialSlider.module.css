@@ -66,12 +66,31 @@
 
     }
 
+    .slideCard>div {
+        width: 70%;
+    }
+
 
 }
 
-@media only screen and (min-width: 740px) and (max-width: 959px) {}
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .slideCard>div {
+        width: 70%;
+    }
 
-@media only screen and (min-width: 600px) and (max-width: 739px) {}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .slideCard>div {
+        width: 70%;
+    }
+
+}
 
 
-@media only screen and (max-width: 599px) {}
+@media only screen and (max-width: 599px) {
+    .slideCard>div {
+        width: 80%;
+    }
+
+}
