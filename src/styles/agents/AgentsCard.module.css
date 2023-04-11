@@ -37,6 +37,8 @@
 .socialIcon{
     font-size: 2em;
     color: #fafafa;
+    cursor: pointer;
+  
 }
 
 .agentsCard:hover .imgWrapper img{
@@ -116,6 +118,10 @@
     .agentsCard h2 {
         margin-bottom: 7.5px;
     }
+
+    .socialIcon{
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (min-width: 740px) and (max-width: 959px) {
@@ -130,6 +136,10 @@
 
     .agentsCard>h2 {
         margin-bottom: 7.5px;
+    }
+
+    .socialIcon{
+        font-size: 1.5em;
     }
 }
 
@@ -146,6 +156,10 @@
 
     .agentsCard>h2 {
         margin-bottom: 7px;
+    }
+
+    .socialIcon{
+        font-size: 1.25em;
     }
 }
 
@@ -168,6 +182,10 @@
         margin-bottom: 6px;
     }
 
+    .socialIcon{
+        font-size: 1.25em;
+    }
+
 }
 
 
@@ -186,5 +204,8 @@
 
     .agentsCard>h2 {
         margin-bottom: 6px;
+    }
+    .socialIcon{
+        font-size: 1.1em;
     }
 }
